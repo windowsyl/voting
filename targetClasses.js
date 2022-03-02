@@ -16,7 +16,7 @@ class Group {
 }
 
 class Circle extends Group {
-  constructor(p, x, y, size = 60) {
+  constructor(p, x, y, size = 40) {
     super(p, x, y, size);
   }
   draw() {
@@ -27,7 +27,7 @@ class Circle extends Group {
 }
 
 class Square extends Group {
-  constructor(p, x, y, size = 60) {
+  constructor(p, x, y, size = 40) {
     super(p, x, y, size);
   }
   draw() {
